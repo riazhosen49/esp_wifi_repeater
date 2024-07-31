@@ -26,7 +26,7 @@ Some details are explained in this video: https://www.youtube.com/watch?v=OM2Fqn
 # First Boot
 The esp_wifi_repeater starts with the following default configuration:
 
-- ap_ssid: MyAP, ap_password: none, ap_on: 1, ap_open: 1
+- ap_ssid: My, ap_password: none, ap_on: 1, ap_open: 1
 - network: 192.168.4.0/24
 
 After first boot (or factory reset) it will offer a WiFi network with an open AP and the ssid "MyAP". It does not yet try to automatically re-connect to an uplink AP (as it does not know a valid ssid or password).
